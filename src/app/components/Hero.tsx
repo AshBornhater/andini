@@ -2,7 +2,7 @@
 import Container from "./Container";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import fotbarImage from "@/../public/images/fotbar.png"
+import fotbarImage from "@/../public/images/fotbar2.png"
 
 export default function Hero(){
   return (
@@ -32,7 +32,7 @@ export default function Hero(){
             </div>
           </motion.div> */}
           <div className="flex justify-center flex-col items-center">
-            <Image src={fotbarImage} alt="splash" width={100} height={100} className="w-full"/>
+            <Image src={fotbarImage} alt="splash" width={1000} height={1000} className="w-full"/>
             <p className="font-semibold">"Stop Nikah Dini, Selamatkan Generasi"</p>
           </div>
         </div>
